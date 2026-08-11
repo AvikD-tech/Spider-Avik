@@ -5,7 +5,7 @@ const fs = require('fs-extra');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 // আপনার ডোমেইন এখানে দাও (পরে Render দেবে)
 const BASE_URL = process.env.BASE_URL || 'https://spider-avik.onrender.com';
