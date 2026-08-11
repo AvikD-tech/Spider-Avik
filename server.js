@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // আপনার ডোমেইন এখানে দাও (পরে Render দেবে)
-const BASE_URL = process.env.BASE_URL || 'https://your-app-name.onrender.com';
+const BASE_URL = process.env.BASE_URL || 'https://spider-avik.onrender.com';
 
 app.use(cors());
 app.use(express.json());
