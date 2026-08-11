@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 const PORT = process.env.PORT || 10000;
-const BASE_URL = process.env.BASE_URL || 'https://spider-avik.zone.id';
+const BASE_URL = process.env.BASE_URL || 'https://spider-avik.onrender.com';
 
 // Cloudinary Configuration
 cloudinary.config({
