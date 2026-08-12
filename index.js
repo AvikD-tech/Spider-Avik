@@ -5,10 +5,10 @@ const FormData = require('form-data');
 const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 // Your custom domain or Render URL is set here
-const BASE_URL = process.env.BASE_URL || 'https://spider-avik.onrender.com'; 
+const BASE_URL = process.env.BASE_URL || 'https://spider-avik.zone.id'; 
 
 app.use(cors());
 const upload = multer({ storage: multer.memoryStorage() });
