@@ -5,7 +5,7 @@ const app = new Hono()
 
 app.use('*', cors())
 
-const BASE_URL = 'https://spider-avik zone.id' // পরে পরিবর্তন করবে
+const BASE_URL = 'https://spider-avik.pages.dev' // পরে পরিবর্তন করবে
 
 // Health
 app.get('/', (c) => c.text('Spider Media API running'))
