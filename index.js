@@ -5,7 +5,7 @@ const FormData = require('form-data');
 const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 8080;
 
 // Railway theke BASE_URL ashbe, na thakle default URL thakbe
 const BASE_URL = process.env.BASE_URL || 'https://spider-avik.zone.id'; 
