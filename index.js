@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // Railway ba custom domain theke BASE_URL ashbe, na thakle default URL thakbe
-const BASE_URL = process.env.BASE_URL || 'https://spider-avik.zone.id'; 
+const BASE_URL = process.env.BASE_URL || 'https://spider-avik.pages.dev'; 
 
 app.use(cors());
 const upload = multer({ storage: multer.memoryStorage() });
